@@ -6,17 +6,15 @@
     font-family: 'Android';
     src: url('fontes/idroid.otf') format('opentype');
     font-weight: normal;
-    
+
 @media screen { max-width: 300px;
 
     
     nav a{
         height: 20px;
-        width: 520px;
+        width: 20px;
         padding: 5px;
         margin: 2px;
-        
-        
     }
     
    
