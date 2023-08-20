@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sombras na Caixa e Bordas Decoradas</title>
+
+    <style>
+            body{
+                background-color: rgb(224, 140, 13);
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .CaixacomSombra{
+
+                
+                background-color: snow;
+                width: 400px;
+                margin: auto;
+                padding: 1px 10px;
+                box-shadow: 3px 5px 4px black;
+                /* border-radius: 10px; Arredonda de forma simetrica */
+                /* border-radius: 10px 20px 30px 40px; Arredonda de forma difernte em cada vértice */
+                border-radius: 10px 30px; /* Arredonda de forma intercalada superio esquerda 10px, superior direita 20px, inferior direita 10px e inferior esquerda 20px */
+                
+
+            }
+
+            .CaixacomSombra > h1, p{
+
+                text-align: center;
+                font-size: 20px;
+
+            }
+
+
+    </style>
+</head>
+<body>
+    
+    <div class="CaixacomSombra">
+
+        <h1>Usando sombras</h1>
+
+        <p>Vamos aprender a usar sombra e Bordas Decoradas com esse exemplo</p>
+
+
+
+
+    </div>
+
+</body>
+</html>

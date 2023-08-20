@@ -1,0 +1,36 @@
+body{
+
+    margin: 0;
+    padding: 0;
+
+}
+
+.TituloPrincipal{
+
+    text-align: center;
+}
+
+a{
+
+    margin: 20px;
+}
+
+.ContPprincipal{
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: black;
+
+
+
+}
+.ContPprincipal2{
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(211, 37, 37);
+            
+
+}
