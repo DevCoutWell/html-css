@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+
+*{
+
+    margin: 0px;
+    padding: 0px;
+}
+
+
+header{
+
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    
+
+
+}
+
+header > h1{
+
+    margin: 20px;
+
+
+}
+
+header a{
+
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    
+}
+
+header p{
+
+    margin: 20px;
+}
+
+
+footer{
+    
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
