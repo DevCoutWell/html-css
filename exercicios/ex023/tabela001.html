@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela grandes</title>
+
+    <style>
+
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+
+        body{
+
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1{
+
+            font-variant: small-caps;
+            height: 100px;
+            background-color: rgb(70, 15, 221);
+            color: white;
+            text-align: center;
+            padding: 10px;
+            
+            
+
+
+            
+        }
+
+
+       table{
+
+            border-collapse: collapse;
+            width: 400px;
+            height: 400px;
+            margin: 20px;
+            border: 1px solid black;
+            position: relative;
+        
+       }
+
+       thead > tr> th{
+
+            position: sticky;
+            top: -1px;
+            background-color: darkgray;
+            
+       }
+       
+       thead, tfoot{
+            background-color: darkgray;
+       }
+
+
+       caption{
+
+        padding: 8px;
+        font-weight: bold;
+        font-size: 16px;
+        
+
+       }
+
+       tbody > tr:nth-child(2n){
+
+        background-color: lightgray;
+
+       }
+
+        td, tr,th{
+            
+            border: 1px solid black;
+            padding: 5px;
+            
+        }
+        td.num{
+            font-weight: normal;
+            text-align: right;
+        }
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    
+    
+        <h1>Uso de tabelas grandes</h1>
+    
+
+    <table>
+
+
+
+        <caption>População das Unidades Federativas do Brasil</caption>
+
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
+                
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">44.420.459	</td>
+                
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">20.538.718	</td>
+            </tr>
+
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">16.054.524	</td>
+            </tr>
+
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14.136.417	</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">11.443.208	</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">10.880.506	</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9.058.155</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="num">8.791.688	</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="num">8.116.132	</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="num">7.609.601	</td>
+            </tr>
+            <tr>
+                <td>Maranhão</td>
+                <td class="num">6.775.152	</td>
+            </tr>
+            <tr>
+                <td>Goiás</td>
+                <td class="num">7.055.228	</td>
+            </tr>
+            <tr>    
+                <td>Amazonas</td>
+                <td class="num">3.941.175	</td>
+            </tr>
+            <tr>
+                <td>Espírito Santo</td>
+                <td class="num">3.833.486	</td>
+            </tr>
+            <tr>    
+                <td>Paraíba</td>
+                <td class="num">3.974.495	</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Norte</td>
+                <td class="num">3.302.406	</td>
+            </tr>
+            <tr>    
+                <td>Mato Grosso</td>
+                <td class="num">3.658.813	</td>
+            </tr>
+            <tr>
+                <td>Alagoas</td>
+                <td class="num">3.127.511	</td>
+            </tr>
+            <tr>
+                <td>Piauí</td>
+                <td class="num">3.269.200	</td>
+            </tr>
+            <tr>
+                <td>Distrito Federal</td>
+                <td class="num">2.817.068	</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso do Sul</td>
+                <td class="num">2.756.700	</td>
+            </tr>
+            <tr>
+                <td>Sergipe</td>
+                <td class="num">2.209.558	</td>
+            </tr>
+            <tr>
+                <td>Rondônia</td>
+                <td class="num">1.581.016	</td>
+            </tr>
+            <tr>
+                <td>Tocantins</td>
+                <td class="num">1.511.459	</td>
+            </tr>
+            <tr>
+                <td>Acre</td>
+                <td class="num">830.026	</td>
+            </tr>
+            <tr>
+                <td>Amapá</td>
+                <td class="num">733.508	</td>
+            </tr>
+            <tr>
+                <td>Roraima</td>
+                <td class="num">636.303	</td>
+            </tr>
+            
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+                <td class="num">203.062.512	</td>
+
+            </tr>
+        </tfoot>
+    </table>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam repellendus animi illo cum corporis nobis eum quia! Itaque laudantium odit eius nobis ipsam nisi voluptatem quod tempore placeat quo. Voluptatum.
+Maiores dolorem nobis vel dignissimos sequi omnis enim repudiandae dolores quam, deserunt eos illo alias rerum. Eaque ipsum quae consequuntur est, nisi corrupti ipsa maxime cum, rerum tempore incidunt necessitatibus.
+Atque ex minus accusantium provident similique veniam maiores eveniet sapiente, magnam sequi consectetur deserunt. Aliquam earum numquam, minima repellendus maiores libero dolore eveniet distinctio est totam, illo quasi alias id!
+Ex praesentium vel tempore qui voluptatibus architecto, eaque earum accusantium eveniet iusto illum molestias expedita, enim libero voluptas nihil, adipisci quos nam officia explicabo. Mollitia ut provident illum molestias voluptates.
+Voluptate voluptas vel a ea deleniti? Eligendi, explicabo adipisci iusto suscipit deleniti iste odit nihil? Temporibus ullam voluptates architecto, itaque autem nam optio voluptas sunt, consequuntur aperiam, incidunt laborum tenetur!</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam repellendus animi illo cum corporis nobis eum quia! Itaque laudantium odit eius nobis ipsam nisi voluptatem quod tempore placeat quo. Voluptatum.
+    Maiores dolorem nobis vel dignissimos sequi omnis enim repudiandae dolores quam, deserunt eos illo alias rerum. Eaque ipsum quae consequuntur est, nisi corrupti ipsa maxime cum, rerum tempore incidunt necessitatibus.
+    Atque ex minus accusantium provident similique veniam maiores eveniet sapiente, magnam sequi consectetur deserunt. Aliquam earum numquam, minima repellendus maiores libero dolore eveniet distinctio est totam, illo quasi alias id!
+    Ex praesentium vel tempore qui voluptatibus architecto, eaque earum accusantium eveniet iusto illum molestias expedita, enim libero voluptas nihil, adipisci quos nam officia explicabo. Mollitia ut provident illum molestias voluptates.
+    Voluptate voluptas vel a ea deleniti? Eligendi, explicabo adipisci iusto suscipit deleniti iste odit nihil? Temporibus ullam voluptates architecto, itaque autem nam optio voluptas sunt, consequuntur aperiam, incidunt laborum tenetur!</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam repellendus animi illo cum corporis nobis eum quia! Itaque laudantium odit eius nobis ipsam nisi voluptatem quod tempore placeat quo. Voluptatum.
+        Maiores dolorem nobis vel dignissimos sequi omnis enim repudiandae dolores quam, deserunt eos illo alias rerum. Eaque ipsum quae consequuntur est, nisi corrupti ipsa maxime cum, rerum tempore incidunt necessitatibus.
+        Atque ex minus accusantium provident similique veniam maiores eveniet sapiente, magnam sequi consectetur deserunt. Aliquam earum numquam, minima repellendus maiores libero dolore eveniet distinctio est totam, illo quasi alias id!
+        Ex praesentium vel tempore qui voluptatibus architecto, eaque earum accusantium eveniet iusto illum molestias expedita, enim libero voluptas nihil, adipisci quos nam officia explicabo. Mollitia ut provident illum molestias voluptates.
+        Voluptate voluptas vel a ea deleniti? Eligendi, explicabo adipisci iusto suscipit deleniti iste odit nihil? Temporibus ullam voluptates architecto, itaque autem nam optio voluptas sunt, consequuntur aperiam, incidunt laborum tenetur!</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam repellendus animi illo cum corporis nobis eum quia! Itaque laudantium odit eius nobis ipsam nisi voluptatem quod tempore placeat quo. Voluptatum.
+            Maiores dolorem nobis vel dignissimos sequi omnis enim repudiandae dolores quam, deserunt eos illo alias rerum. Eaque ipsum quae consequuntur est, nisi corrupti ipsa maxime cum, rerum tempore incidunt necessitatibus.
+            Atque ex minus accusantium provident similique veniam maiores eveniet sapiente, magnam sequi consectetur deserunt. Aliquam earum numquam, minima repellendus maiores libero dolore eveniet distinctio est totam, illo quasi alias id!
+            Ex praesentium vel tempore qui voluptatibus architecto, eaque earum accusantium eveniet iusto illum molestias expedita, enim libero voluptas nihil, adipisci quos nam officia explicabo. Mollitia ut provident illum molestias voluptates.
+            Voluptate voluptas vel a ea deleniti? Eligendi, explicabo adipisci iusto suscipit deleniti iste odit nihil? Temporibus ullam voluptates architecto, itaque autem nam optio voluptas sunt, consequuntur aperiam, incidunt laborum tenetur!</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam repellendus animi illo cum corporis nobis eum quia! Itaque laudantium odit eius nobis ipsam nisi voluptatem quod tempore placeat quo. Voluptatum.
+                Maiores dolorem nobis vel dignissimos sequi omnis enim repudiandae dolores quam, deserunt eos illo alias rerum. Eaque ipsum quae consequuntur est, nisi corrupti ipsa maxime cum, rerum tempore incidunt necessitatibus.
+                Atque ex minus accusantium provident similique veniam maiores eveniet sapiente, magnam sequi consectetur deserunt. Aliquam earum numquam, minima repellendus maiores libero dolore eveniet distinctio est totam, illo quasi alias id!
+                Ex praesentium vel tempore qui voluptatibus architecto, eaque earum accusantium eveniet iusto illum molestias expedita, enim libero voluptas nihil, adipisci quos nam officia explicabo. Mollitia ut provident illum molestias voluptates.
+                Voluptate voluptas vel a ea deleniti? Eligendi, explicabo adipisci iusto suscipit deleniti iste odit nihil? Temporibus ullam voluptates architecto, itaque autem nam optio voluptas sunt, consequuntur aperiam, incidunt laborum tenetur!</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam repellendus animi illo cum corporis nobis eum quia! Itaque laudantium odit eius nobis ipsam nisi voluptatem quod tempore placeat quo. Voluptatum.
+                    Maiores dolorem nobis vel dignissimos sequi omnis enim repudiandae dolores quam, deserunt eos illo alias rerum. Eaque ipsum quae consequuntur est, nisi corrupti ipsa maxime cum, rerum tempore incidunt necessitatibus.
+                    Atque ex minus accusantium provident similique veniam maiores eveniet sapiente, magnam sequi consectetur deserunt. Aliquam earum numquam, minima repellendus maiores libero dolore eveniet distinctio est totam, illo quasi alias id!
+                    Ex praesentium vel tempore qui voluptatibus architecto, eaque earum accusantium eveniet iusto illum molestias expedita, enim libero voluptas nihil, adipisci quos nam officia explicabo. Mollitia ut provident illum molestias voluptates.
+                    Voluptate voluptas vel a ea deleniti? Eligendi, explicabo adipisci iusto suscipit deleniti iste odit nihil? Temporibus ullam voluptates architecto, itaque autem nam optio voluptas sunt, consequuntur aperiam, incidunt laborum tenetur!</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam repellendus animi illo cum corporis nobis eum quia! Itaque laudantium odit eius nobis ipsam nisi voluptatem quod tempore placeat quo. Voluptatum.
+                        Maiores dolorem nobis vel dignissimos sequi omnis enim repudiandae dolores quam, deserunt eos illo alias rerum. Eaque ipsum quae consequuntur est, nisi corrupti ipsa maxime cum, rerum tempore incidunt necessitatibus.
+                        Atque ex minus accusantium provident similique veniam maiores eveniet sapiente, magnam sequi consectetur deserunt. Aliquam earum numquam, minima repellendus maiores libero dolore eveniet distinctio est totam, illo quasi alias id!
+                        Ex praesentium vel tempore qui voluptatibus architecto, eaque earum accusantium eveniet iusto illum molestias expedita, enim libero voluptas nihil, adipisci quos nam officia explicabo. Mollitia ut provident illum molestias voluptates.
+                        Voluptate voluptas vel a ea deleniti? Eligendi, explicabo adipisci iusto suscipit deleniti iste odit nihil? Temporibus ullam voluptates architecto, itaque autem nam optio voluptas sunt, consequuntur aperiam, incidunt laborum tenetur!</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam repellendus animi illo cum corporis nobis eum quia! Itaque laudantium odit eius nobis ipsam nisi voluptatem quod tempore placeat quo. Voluptatum.
+                            Maiores dolorem nobis vel dignissimos sequi omnis enim repudiandae dolores quam, deserunt eos illo alias rerum. Eaque ipsum quae consequuntur est, nisi corrupti ipsa maxime cum, rerum tempore incidunt necessitatibus.
+                            Atque ex minus accusantium provident similique veniam maiores eveniet sapiente, magnam sequi consectetur deserunt. Aliquam earum numquam, minima repellendus maiores libero dolore eveniet distinctio est totam, illo quasi alias id!
+                            Ex praesentium vel tempore qui voluptatibus architecto, eaque earum accusantium eveniet iusto illum molestias expedita, enim libero voluptas nihil, adipisci quos nam officia explicabo. Mollitia ut provident illum molestias voluptates.
+                            Voluptate voluptas vel a ea deleniti? Eligendi, explicabo adipisci iusto suscipit deleniti iste odit nihil? Temporibus ullam voluptates architecto, itaque autem nam optio voluptas sunt, consequuntur aperiam, incidunt laborum tenetur!</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam repellendus animi illo cum corporis nobis eum quia! Itaque laudantium odit eius nobis ipsam nisi voluptatem quod tempore placeat quo. Voluptatum.
+                                Maiores dolorem nobis vel dignissimos sequi omnis enim repudiandae dolores quam, deserunt eos illo alias rerum. Eaque ipsum quae consequuntur est, nisi corrupti ipsa maxime cum, rerum tempore incidunt necessitatibus.
+                                Atque ex minus accusantium provident similique veniam maiores eveniet sapiente, magnam sequi consectetur deserunt. Aliquam earum numquam, minima repellendus maiores libero dolore eveniet distinctio est totam, illo quasi alias id!
+                                Ex praesentium vel tempore qui voluptatibus architecto, eaque earum accusantium eveniet iusto illum molestias expedita, enim libero voluptas nihil, adipisci quos nam officia explicabo. Mollitia ut provident illum molestias voluptates.
+                                Voluptate voluptas vel a ea deleniti? Eligendi, explicabo adipisci iusto suscipit deleniti iste odit nihil? Temporibus ullam voluptates architecto, itaque autem nam optio voluptas sunt, consequuntur aperiam, incidunt laborum tenetur!</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam repellendus animi illo cum corporis nobis eum quia! Itaque laudantium odit eius nobis ipsam nisi voluptatem quod tempore placeat quo. Voluptatum.
+                                    Maiores dolorem nobis vel dignissimos sequi omnis enim repudiandae dolores quam, deserunt eos illo alias rerum. Eaque ipsum quae consequuntur est, nisi corrupti ipsa maxime cum, rerum tempore incidunt necessitatibus.
+                                    Atque ex minus accusantium provident similique veniam maiores eveniet sapiente, magnam sequi consectetur deserunt. Aliquam earum numquam, minima repellendus maiores libero dolore eveniet distinctio est totam, illo quasi alias id!
+                                    Ex praesentium vel tempore qui voluptatibus architecto, eaque earum accusantium eveniet iusto illum molestias expedita, enim libero voluptas nihil, adipisci quos nam officia explicabo. Mollitia ut provident illum molestias voluptates.
+                                    Voluptate voluptas vel a ea deleniti? Eligendi, explicabo adipisci iusto suscipit deleniti iste odit nihil? Temporibus ullam voluptates architecto, itaque autem nam optio voluptas sunt, consequuntur aperiam, incidunt laborum tenetur!</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
